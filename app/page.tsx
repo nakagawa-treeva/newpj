@@ -25,16 +25,6 @@ export default function Home() {
               住まい手の想いと土地の風景に寄り添いながら、心豊かな日常をつくる建築設計事務所です。
             </p>
           </Reveal>
-          <Reveal delay={0.18} className="hero-actions">
-            <a href={`mailto:${office.mail}`}>
-              <Mail size={17} />
-              {office.mail}
-            </a>
-            <a href={`tel:${office.tel}`}>
-              <Phone size={17} />
-              {office.tel}
-            </a>
-          </Reveal>
         </div>
         <div className="hero-panel">
           <span>Based in Hikari, Yamaguchi</span>
