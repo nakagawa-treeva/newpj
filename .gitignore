@@ -21,3 +21,5 @@ Thumbs.db
 work/
 .agents/
 .codex/
+
+.vercel
